@@ -3,9 +3,9 @@ import html from "../assets/img/html.png";
 import css from "../assets/img/css.png";
 import javascript from "../assets/img/javascript.png";
 import reactImage from "../assets/img/react.png";
-import tailwind from "../assets/img/tailwind.png";
-import nextjs from "../assets/img/nextjs.png";
-import graphql from "../assets/img/graphql.png";
+import mongodb from "../assets/img/mongodb.png";
+import reactNative from "../assets/img/react.png";
+import nodejs from "../assets/img/nodejs3.png";
 import github from "../assets/img/github.png";
 
 function Expreance() {
@@ -36,21 +36,21 @@ function Expreance() {
     },
     {
       id: 5,
-      src: tailwind,
-      title: "Tailwind",
-      style: "shadow-sky-400",
-    },
-    {
-      id: 6,
-      src: nextjs,
-      title: "Next JS",
+      src: mongodb,
+      title: "Mongo DB",
       style: "shadow-white",
     },
     {
+      id: 6,
+      src: reactNative,
+      title: "React Native",
+      style: "shadow-blue-600",
+    },
+    {
       id: 7,
-      src: graphql,
-      title: "GraphQL",
-      style: "shadow-pink-400",
+      src: nodejs,
+      title: "Node JS",
+      style: "shadow-white",
     },
     {
       id: 8,

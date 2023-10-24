@@ -16,8 +16,8 @@ function Home() {
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            i love building and desgining software. Currently, working on web
-            application using technologies like React, Node JS and Express JS.
+            I love building and desgining website. Currently, working on web
+            application using technologies like React, React Native and Node JS.
           </p>
           <div>
             <Link to='portfolio' duration={500} className="group rounded-md flex text-white px-6 py-3 w-fit items-center cursor-pointer bg-gradient-to-r from-cyan-500 to-blue-500  ">
