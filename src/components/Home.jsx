@@ -1,8 +1,7 @@
 import React from "react";
-import profile from "../assets/profile.png";
+import profile from "../assets/profile.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
-
 
 function Home() {
   return (
@@ -20,7 +19,11 @@ function Home() {
             application using technologies like React, React Native and Node JS.
           </p>
           <div>
-            <Link to='portfolio' duration={500} className="group rounded-md flex text-white px-6 py-3 w-fit items-center cursor-pointer bg-gradient-to-r from-cyan-500 to-blue-500  ">
+            <Link
+              to="portfolio"
+              duration={500}
+              className="group rounded-md flex text-white px-6 py-3 w-fit items-center cursor-pointer bg-gradient-to-r from-cyan-500 to-blue-500  "
+            >
               Portfolio
               <span className="group-hover:rotate-90 duration-300 ">
                 <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
@@ -32,7 +35,7 @@ function Home() {
           <img
             src={profile}
             alt="Ranjith"
-            className=" rounded-2xl mx-auto w-2/3 md:w-full "
+            className=" rounded-2xl mx-auto w-[200px] md:w-[2/3] "
           />
         </div>
       </div>

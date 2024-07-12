@@ -12,22 +12,29 @@ const About = () => {
             About
           </p>
         </div>
-        <p className=" text-xl mt-20 ">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur
-          alias iste voluptate soluta asperiores, ipsum rem natus deserunt,
-          minus optio voluptates praesentium itaque repellendus, inventore
-          maiores laborum quia doloribus! Ab autem iure eligendi voluptas ipsum
-          corrupti quibusdam minus. Repudiandae accusamus eaque nemo quis soluta
-          dignissimos nulla ea quasi at aut?
+        <p className=" text-xl mt-5">
+          I have a diverse background in both civil engineering and IT, with
+          over 3 years of experience in the construction field, including
+          prestigious projects like the Bangalore International Airport. I have
+          developed strong project management skills, improved efficiency by
+          20%, and reduced project costs by 25% through effective resource
+          management.
         </p>
         <br />
         <p className="text-xl">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum,
-          nostrum sunt porro illum aut numquam molestiae provident ab,
-          blanditiis enim qui illo reiciendis placeat debitis eaque rem, odio
-          nihil beatae. Ipsum ipsam quaerat delectus officia maxime tenetur
-          nesciunt quidem sed! Quam expedita saepe, animi eius consequatur non
-          nihil neque dignissimos.
+          Transitioning into the tech industry, I spent a year learning the MERN
+          stack and have become proficient in full stack development, using
+          technologies like Node.js, React.js, and MongoDB. I’ve worked on
+          various projects involving user and product management, backend APIs,
+          and frontend development with a focus on responsive design using
+          Tailwind CSS.
+        </p>
+        <br />
+        <p className="text-xl">
+          I believe my unique combination of construction and IT experience,
+          coupled with my project management skills, makes me well-suited for
+          this role. I’m excited about the opportunity to contribute to your
+          team and leverage my background to deliver impactful results.
         </p>
       </div>
     </div>
