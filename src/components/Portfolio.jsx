@@ -1,40 +1,22 @@
 import React from "react";
 import img1 from "../assets/img1.jpg";
-import img2 from "../assets/img2.jpg";
+import img2 from "../assets/img2.png";
 import img3 from "../assets/img3.jpg";
 import img4 from "../assets/img4.jpg";
 import img5 from "../assets/img5.jpg";
 import img6 from "../assets/img6.jpg";
 
 const Portfolio = () => {
-  // const portfolios = [
-  //   {
-  //     id: 1,
-  //     src: arrayDestruct,
-  //   },
-  //   {
-  //     id: 2,
-  //     src: reactParallax,
-  //   },
-  //   {
-  //     id: 3,
-  //     src: navbar,
-  //   },
-  //   {
-  //     id: 4,
-  //     src: reactSmooth,
-  //   },
-  //   {
-  //     id: 5,
-  //     src: installNode,
-  //   },
-  //   {
-  //     id: 6,
-  //     src: reactWeather,
-  //   },
-  // ];
 
   const portfolios = [
+    {
+      id: 1,
+      name: "Flixxit",
+      src: img2,
+      demo: "https://flixxit-self.vercel.app/",
+      code: "https://github.com/ranjithmahesh/Flixxit",
+      title: "Full Stack project",
+    },
     {
       id: 1,
       name: "Real Estate",
@@ -42,17 +24,6 @@ const Portfolio = () => {
       demo: "https://mern-estate-q962.onrender.com/",
       code: "https://github.com/ranjithmahesh/RealEstate",
       title: "Full Stack project",
-    },
-    {
-      id: 2,
-      name: "Food App",
-
-      src: img2,
-      project: "React Native project",
-      demo: "https://drive.google.com/file/d/1VP4TMaxJIiLtirefmLbM9ZI1wbSNjvK6/view?usp=sharing",
-      title: "React Native project",
-
-      code: "https://github.com/ranjithmahesh/FoodApp",
     },
     {
       id: 3,
